@@ -16,7 +16,7 @@ function ContactForm() {
                   type="text"
                   id="name"
                   className="form-control"
-                  placeholder="Peter Fotis"
+                  placeholder="your name"
                 />
               </div>
               <div className="form-group">

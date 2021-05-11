@@ -7,9 +7,9 @@ function ContactForm() {
     <Container>
       <section className="content">
         <Row>
-          <div className="col-md-12 midsection">
+          <div className="col-md-6 col-sm-12 midsection">
             <h2>Contact</h2>
-            <form>
+            <form action="mailto:pfotis@gmail.com" method="post" enctype="text/plain"> 
               <div className="form-group">
                 <label for="name">Name</label>
                 <input

@@ -1,5 +1,6 @@
 import React from "react";
 import Col from "../Col";
+import "./style.css";
 
 function Project(props) {
 

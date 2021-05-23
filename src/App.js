@@ -1,30 +1,25 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Portofolio from "./pages/Portofolio";
 import About from "./pages/About";
-import Portfolio from "./pages/Portfolio.js";
-import Contact from "./pages/Contact.js";
-import Container from "./components/Container";
+import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import "./App.css";
-import Row from "./components/Row";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
     <Router>
-        <Container>
-          <Row>
-            <h1 className="rounded col-sm-12 col-lg-3">Peter Fotis</h1>
-            <Navbar/>
-            {/* use switch if you want to add "*" path */}
-            <Switch>
-              <Route exact path="/portfolio" component={Portfolio} />
-              <Route exact path="/contact" component={Contact} /> 
-              <Route exact path={["/", "/about", "*"]} component={About} />
-              </Switch>  
-          </Row>
-        </Container>
-      <Footer />
+      <div>
+        <Navbar />
+        <Wrapper>
+          <Route exact path="/" component={About} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portofolio" component={Portofolio} />
+          <Route exact path="/contact" component={Contact} />
+        </Wrapper>
+        <Footer />
+      </div>
     </Router>
   );
 }

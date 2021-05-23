@@ -1,15 +1,17 @@
 import React from "react";
+// import components
 import Container from "../components/Container";
 import Row from "../components/Row";
+import { FormBtn } from "../components/Form";
 
 function ContactForm() {
   return (
     <Container>
-      <section className="content">
+      <section className="content space">
         <Row>
-          <div className="col-md-6 col-sm-12 midsection">
+          <div className="col-md-12 midsection">
             <h2>Contact</h2>
-            <form action="mailto:pfotis@gmail.com" method="post" enctype="text/plain"> 
+            <form action="mailto:pfotis@gmail.com" method="post" enctype="text/plain">
               <div className="form-group">
                 <label for="name">Name</label>
                 <input
@@ -37,9 +39,7 @@ function ContactForm() {
                   rows="8"
                 ></textarea>
               </div>
-              <button type="submit" className="btn btn-primary">
-                Submit
-              </button>
+              <FormBtn>Submit</FormBtn>
             </form>
           </div>
         </Row>

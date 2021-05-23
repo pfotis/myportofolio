@@ -3,6 +3,8 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
+import "./style.css";
+
 function About() {
   return (
     <Container>
@@ -13,9 +15,9 @@ function About() {
             <Row>
               <Col size="sm-12">
                 <img
-                  className="img-fluid profile-pic float-left"
-                  src={require("../components/assets/images/aboutMe/me.JPG")}
-                  alt="Me and doggo!"
+                  className="img-fluid profile-pic float-left image-style"
+                  src="./assets/images/aboutMe/me.JPG"
+                  alt="Me!"
                 />
                 <div className="bio">
                   <p>

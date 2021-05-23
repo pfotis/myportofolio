@@ -46,15 +46,6 @@
 <img src="./src/components/assets/images/readme/contact.png" alt="contact">
 
 
-<img src="./src/components/assets/images/readme/mobileAbout.png" alt="about">
-
-
-<img src="./src/components/assets/images/readme/mobilePortofolio.png" alt="portofolio">
-
-
-<img src="./src/components/assets/images/readme/mobileContact.png" alt="contact">
-
-
 ## Questions
 
     For any questions about this repository, please contact me at pfotis@gmail.com

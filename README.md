@@ -37,13 +37,13 @@
 
     With the following pictures the user could see the outfit of this project.
 
-<img src="./src/components/assets/images/readme/about.png" alt="about">
+<img src=".public/assets/images/readme/about.png" alt="about">
 
 
-<img src="./src/components/assets/images/readme/portofolio.png" alt="portofolio">
+<img src="./public/assets/images/readme/portofolio.png" alt="portofolio">
 
 
-<img src="./src/components/assets/images/readme/contact.png" alt="contact">
+<img src="./public/assets/images/readme/contact.png" alt="contact">
 
 
 ## Questions

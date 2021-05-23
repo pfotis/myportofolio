@@ -12,7 +12,7 @@
 
 [Repository link](https://github.com/pfotis/react-portofolio)
 
-[website link](https://pfotis.github.io/react-portofolio/)
+[website link](https://pfotis.github.io/myportofolio/)
 
 ## Description
 

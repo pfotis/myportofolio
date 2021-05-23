@@ -10,7 +10,11 @@ function ContactForm() {
       <section className="content space">
         <Row>
           <div className="col-md-12 midsection">
+            <br/>
+            <br/>
             <h2>Contact</h2>
+            <hr/>
+            <br/>
             <form action="mailto:pfotis@gmail.com" method="post" enctype="text/plain">
               <div className="form-group">
                 <label for="name">Name</label>

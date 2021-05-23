@@ -9,7 +9,11 @@ function Portfolio() {
       <section className="content">
         <Row>
           <div className="col-md-12 midsection">
+            <br/>
+            <br/>
             <h2>Portfolio</h2>
+            <hr/>
+            <br/>
             <Row>
               <Project
                 name="Code Refactor"

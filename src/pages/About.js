@@ -11,7 +11,11 @@ function About() {
       <section className="content">
         <Row>
           <div className="col-md-12 midsection">
+            <br/>
+            <br/>
             <h2>About Me</h2>
+            <hr/>
+            <br/>
             <Row>
               <Col size="sm-12">
                 <img

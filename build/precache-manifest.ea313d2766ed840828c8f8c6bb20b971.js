@@ -25,7 +25,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "3d59fa6ad94fd4700252df9694684af8",
-    "url": "/react-portofolio/static/media/Resume.3d59fa6a.pdf"
+    "url": "/react-portofolio/static/media/Resume.pdf"
   },
   {
     "revision": "3e7198d1071d07d65cdc7da0cd808ba5",

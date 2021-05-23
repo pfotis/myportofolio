@@ -40,7 +40,7 @@
 <img src="./src/components/assets/images/readme/about.png" alt="about">
 
 
-<img src="../src/components/assets/images/readme/portofolio.png" alt="portofolio">
+<img src="./src/components/assets/images/readme/portofolio.png" alt="portofolio">
 
 
 <img src="./src/components/assets/images/readme/contact.png" alt="contact">
@@ -49,7 +49,7 @@
 <img src="./src/components/assets/images/readme/mobileAbout.png" alt="about">
 
 
-<img src="../src/components/assets/images/readme/mobilePortofolio.png" alt="portofolio">
+<img src="./src/components/assets/images/readme/mobilePortofolio.png" alt="portofolio">
 
 
 <img src="./src/components/assets/images/readme/mobileContact.png" alt="contact">

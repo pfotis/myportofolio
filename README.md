@@ -37,7 +37,7 @@
 
     With the following pictures the user could see the outfit of this project.
 
-<img src=".public/assets/images/readme/about.png" alt="about">
+<img src="./public/assets/images/readme/about.png" alt="about">
 
 
 <img src="./public/assets/images/readme/portofolio.png" alt="portofolio">
